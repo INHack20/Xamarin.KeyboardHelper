@@ -31,10 +31,11 @@
     <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
     <Company>Yun Chen</Company>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <BuildWithMSBuildOnMono>true</BuildWithMSBuildOnMono>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.5.0.657" PrivateAssets="All" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2622" PrivateAssets="All" />
   </ItemGroup>
 
   <ItemGroup>

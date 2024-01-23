@@ -301,3 +301,4 @@ __pycache__/
 /sample/.vs/
 /scr/Xamarin.EnableKeyboardEffect.Droid/Resources/Resource.designer.cs
 
+.DS_Store
