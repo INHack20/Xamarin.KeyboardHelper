@@ -1,6 +1,6 @@
 ﻿<Project Sdk="MSBuild.Sdk.Extras/2.0.54">
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.1;MonoAndroid10.0;Xamarin.iOS10</TargetFrameworks>
+    <TargetFrameworks>netstandard2.1;monoandroid13.0;Xamarin.iOS10</TargetFrameworks>
     <Product>$(AssemblyName) ($(TargetFramework))</Product>
     <DefaultLanguage>en-US</DefaultLanguage>
     <AutoGenerateBindingRedirects>True</AutoGenerateBindingRedirects>
@@ -12,16 +12,16 @@
     <Authors>Yun Chen</Authors>
     <owners>Yun Chen</owners>
     <PackageTags>Xamarin.Forms, Xamarin.Anroid, Xamarin.iOS</PackageTags>
-    <PackageProjectUrl>https://github.com/masonyc/Xamarin.KeyboardHelper</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/masonyc/Xamarin.KeyboardHelper</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/INHack20/Xamarin.KeyboardHelper</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/INHack20/Xamarin.KeyboardHelper</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <Description>
       This plugin includes:
-      Xamarin.EnableKeyboardEffect and SoftKeyboardService. More details see github: https://github.com/masonyc/Xamarin.KeyboardHelper
+      Xamarin.EnableKeyboardEffect and SoftKeyboardService. More details see github: https://github.com/INHack20/Xamarin.KeyboardHelper
     </Description>
-    <PackageIconUrl>https://raw.githubusercontent.com/masonyc/Xamarin.KeyboardHelper/master/Screenshots/icon.png</PackageIconUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/INHack20/Xamarin.KeyboardHelper/master/Screenshots/icon.png</PackageIconUrl>
     <Copyright>Copyright © Yun Chen</Copyright>
-    <Version>3.0.1</Version>
+    <Version>3.0.2</Version>
 
     <!-- Optional: Publish the repository URL in the built .nupkg (in the NuSpec <Repository> element) -->
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
@@ -36,6 +36,7 @@
 
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2622" PrivateAssets="All" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.8.1" PrivateAssets="All" />
   </ItemGroup>
 
   <ItemGroup>
@@ -61,4 +62,5 @@
     <Reference Include="Xamarin.iOS" />
     <Compile Include="**/Platform/iOS/**/*.cs" />
   </ItemGroup>
+  
 </Project>

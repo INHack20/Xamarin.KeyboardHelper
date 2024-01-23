@@ -23,7 +23,7 @@ namespace Xamarin.KeyboardHelper.Platform.Droid
                 {
                     _inputManager = (InputMethodManager)Effects.Activity.GetSystemService(Context.InputMethodService);
                 }
-
+                Effects.Activity = Platform.CurrentActivity;
                 // Set visibility to false when focus on background view.
                 var currentFocus = Effects.Activity.CurrentFocus;
 

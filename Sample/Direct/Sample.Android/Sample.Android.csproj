@@ -69,6 +69,9 @@
     <PackageReference Include="Xamarin.Forms.Visual.Material">
       <Version>5.0.0.2622</Version>
     </PackageReference>
+    <PackageReference Include="Xamarin.Essentials">
+      <Version>1.8.1</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -106,13 +109,13 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\scr\Xamarin.KeyboardHelper\Xamarin.KeyboardHelper.csproj">
-      <Project>{c8dfaad2-3f61-4555-97c2-7c0c1a131bf1}</Project>
-      <Name>Xamarin.KeyboardHelper</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Sample\Sample.csproj">
       <Project>{6A6BBA96-AFEB-4399-AA2E-2C8A9E1D7A90}</Project>
       <Name>Sample</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\scr\Xamarin.KeyboardHelper\Xamarin.KeyboardHelper.csproj">
+      <Project>{C8DFAAD2-3F61-4555-97C2-7C0C1A131BF1}</Project>
+      <Name>Xamarin.KeyboardHelper</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

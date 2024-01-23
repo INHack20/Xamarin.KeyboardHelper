@@ -7,14 +7,14 @@
     <owners>Yun Chen, Elvin (Tharindu) Thudugala</owners>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <license type="expression">MIT</license>
-    <projectUrl>https://github.com/masonyc/Xamarin.KeyboardHelper</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/masonyc/Xamarin.KeyboardHelper/master/Screenshots/icon.png</iconUrl>
+    <projectUrl>https://github.com/INHack20/Xamarin.KeyboardHelper</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/INHack20/Xamarin.KeyboardHelper/master/Screenshots/icon.png</iconUrl>
     <description>This plugin includes:
 EnableKeyboardEffect -- allows user to show/hide softkeyboard on Android/iOS platform in Xamarin.Forms
 SoftKeyboardService -- check entry's IsAcceptingText status</description>
     <copyright>Copyright © Yun Chen</copyright>
     <tags>Xamarin.Forms, Xamarin.Anroid, Xamarin.iOS</tags>
-    <repository type="git" url="https://github.com/masonyc/Xamarin.KeyboardHelper.git" commit="11cdc7e225598a6e89ad49312a9a6953c9068ce4" />
+    <repository type="git" url="https://github.com/INHack20/Xamarin.KeyboardHelper.git" commit="11cdc7e225598a6e89ad49312a9a6953c9068ce4" />
   </metadata>
   <files>
     <file src="lib\**" target="lib" />
