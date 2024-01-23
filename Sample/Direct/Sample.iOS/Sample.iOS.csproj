@@ -161,16 +161,19 @@
       <Name>Xamarin.KeyboardHelper</Name>
     </ProjectReference>
     <ProjectReference Include="..\Sample\Sample.csproj">
-      <Project>{501AB48F-43CA-4AFB-9BE2-ECAA76FF9B8B}</Project>
+      <Project>{6A6BBA96-AFEB-4399-AA2E-2C8A9E1D7A90}</Project>
       <Name>Sample</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms">
-      <Version>4.5.0.657</Version>
+      <Version>5.0.0.2622</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms.Visual.Material">
-      <Version>4.5.0.657</Version>
+      <Version>5.0.0.2622</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Essentials">
+      <Version>1.8.1</Version>
     </PackageReference>
   </ItemGroup>
 </Project>

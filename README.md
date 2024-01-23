@@ -10,7 +10,7 @@ This plugin includes:
 # Building Status
 
 
-![CI](https://github.com/masonyc/Xamarin.KeyboardHelper/workflows/CI/badge.svg?branch=master)
+![CI](https://github.com/INHack20/Xamarin.KeyboardHelper/workflows/CI/badge.svg?branch=master)
 
 # Setup
 
@@ -25,7 +25,7 @@ This plugin includes:
 |Platform|Supported|Version|Notes|
 | ------------------- | :-----------: | :------------------: | :------------------: |
 |Xamarin.iOS|Yes|iOS 10+| |
-|Xamarin.Android|Yes|API 19+|Project should [target Android framework 9.0+](https://docs.microsoft.com/en-us/xamarin/android/app-fundamentals/android-api-levels?tabs=vswin#framework)|    
+|Xamarin.Android|Yes|API 23+|Project should [target Android framework 13.0+](https://docs.microsoft.com/en-us/xamarin/android/app-fundamentals/android-api-levels?tabs=vswin#framework)|    
 
 # KeyboardEnableEffect
 

@@ -2,6 +2,7 @@
 using Android.Content.PM;
 using Android.OS;
 using Xamarin.Forms;
+using Xamarin.KeyboardHelper;
 
 namespace Sample.Droid
 {
@@ -15,6 +16,7 @@ namespace Sample.Droid
 
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             FormsMaterial.Init(this, savedInstanceState);
             Xamarin.KeyboardHelper.Platform.Droid.Effects.Init(this);
             LoadApplication(new App());
