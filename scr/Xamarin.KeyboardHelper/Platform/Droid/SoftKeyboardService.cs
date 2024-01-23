@@ -23,11 +23,10 @@ namespace Xamarin.KeyboardHelper.Platform.Droid
                 {
                     _inputManager = (InputMethodManager)Effects.Activity.GetSystemService(Context.InputMethodService);
                 }
-                Effects.Activity = Platform.CurrentActivity;
                 // Set visibility to false when focus on background view.
                 var currentFocus = Effects.Activity.CurrentFocus;
 
-                if (currentFocus.AccessibilityClassName == "android.view.ViewGroup")
+                if (currentFocus?.AccessibilityClassName == "android.view.ViewGroup")
                 {
                     SoftKeyboard.Current.InvokeVisibilityChanged(false);
                     _wasAcceptingText = _inputManager.IsAcceptingText;

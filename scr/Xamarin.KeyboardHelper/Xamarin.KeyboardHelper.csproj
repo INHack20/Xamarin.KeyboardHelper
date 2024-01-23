@@ -1,6 +1,6 @@
 ﻿<Project Sdk="MSBuild.Sdk.Extras/2.0.54">
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.1;monoandroid13.0;Xamarin.iOS10</TargetFrameworks>
+    <TargetFrameworks>netstandard2.1;MonoAndroid13.0;Xamarin.iOS10</TargetFrameworks>
     <Product>$(AssemblyName) ($(TargetFramework))</Product>
     <PackageId>Xamarin.XComponents.KeyboardHelper</PackageId>
     <DefaultLanguage>en-US</DefaultLanguage>
@@ -22,7 +22,7 @@
     </Description>
     <PackageIconUrl>https://raw.githubusercontent.com/INHack20/Xamarin.KeyboardHelper/master/Screenshots/icon.png</PackageIconUrl>
     <Copyright>Copyright © Yun Chen</Copyright>
-    <Version>3.0.2</Version>
+    <Version>3.0.3</Version>
 
     <!-- Optional: Publish the repository URL in the built .nupkg (in the NuSpec <Repository> element) -->
     <PublishRepositoryUrl>true</PublishRepositoryUrl>

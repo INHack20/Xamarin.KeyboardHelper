@@ -2,6 +2,7 @@
 using Android.Content.PM;
 using Android.OS;
 using Xamarin.Forms;
+using Xamarin.KeyboardHelper;
 
 namespace Sample.Droid
 {
